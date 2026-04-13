@@ -14,7 +14,7 @@ export default function LoginPage() {
     e.preventDefault();
 
     try {
-      const res = await axios.post('https://federal-nerti-absco-1d644746.koyeb.app/api/v1/auth/sign-in', {
+      const res = await axios.post('https://pretty-fanya-absco-9609aad3.koyeb.app/api/v1/auth/sign-in', {
         email,
         password
       });
