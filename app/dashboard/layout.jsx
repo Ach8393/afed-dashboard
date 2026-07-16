@@ -39,6 +39,7 @@ export default function AdminLayout({ children }) {
 
             {/* ✅ NEW PROJECTS LINK ADDED */}
             <a href="/dashboard/projects" className="block hover:text-gray-300">Projects</a>
+            <a href="/dashboard/gallery" className="block hover:text-gray-300">Gallery</a>
           </nav>
         </div>
 
